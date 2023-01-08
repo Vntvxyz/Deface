@@ -35,7 +35,7 @@ def eagle(tetew):
 def main():
 	list= "list.txt"
 	opened=open(list,"r")
-def white(script,target_file="index.txt"):
+def white(script,target_file="index.html"):
    op = open(script,"r").read()
    with open(target_file, "r") as target:
       target = target.readlines()
