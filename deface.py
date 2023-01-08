@@ -33,7 +33,7 @@ def eagle(tetew):
    
    return str(ipt)
 
-def white(script,target_file="index.html"):
+def white(script,target_file="index.txt"):
    op = open(script,"r").read()
    with open(target_file, "r") as target:
       target = target.readlines()
