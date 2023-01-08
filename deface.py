@@ -32,7 +32,9 @@ def eagle(tetew):
       ipt = raw_input(tetew)
    
    return str(ipt)
-
+def main():
+	list= "list.txt"
+	opened=open(list,"r")
 def white(script,target_file="index.txt"):
    op = open(script,"r").read()
    with open(target_file, "r") as target:
