@@ -5,14 +5,14 @@
 <!--<link href="https://lopikir.feeldream.repl.co/style.css" rel="stylesheet" type="text/css" /><script src="https://lopikir.feeldream.repl.co/script.js"></script>-->
 <head>
   <link rel="icon" type="image/png" href="https://i.pinimg.com/564x/16/d4/cf/16d4cf6011936196dced29d07d1f8387.jpg" />
-<title> NgThanhVinh </title>
+<title>Hacker Chu Thanh An</title>
 <!-- 
-  Chào Thân Ái !
+  Made with love by Samuel Pasaribu!
 
-     Blog: ?
-     WhatsApp: ?
-     Github: ?
-     Email: ?
+     Blog: cc
+     WhatsApp: cc
+     Github: cc
+     Email: cc
 
   Thanks to all <3
 -->
@@ -29,7 +29,7 @@ di background-image URL --><style>
 body{background-image: url("https://i.pinimg.com/originals/96/74/a3/9674a3ff21e02af82daa565e5773fa56.gif");background-repeat: no-repeat;background-size: 110% 110%;animation:none;transition:all .3s ease;}
 @keyframes fanim {0% {background-position: 0% 0%;}25% {background-position: 100% 100%;} 50% {background-position: 0% 100%;} 75% {background-position: 50% 50%;} 100% {background-position: 0% 0%;}}
  body{background-color:#101010;font-family:var(--gaya-font);padding: 25px;-webkit-user-select: none; -ms-user-select: none; user-select: none;} a{text-decoration:none;}
-body::before{content:"@ThànhVinh";color:white;opacity:.3;font-size:2vw;position:fixed;bottom:25px;left:25px;z-index:2}
+body::before{content:"@ChuThanhAn";color:white;opacity:.3;font-size:2vw;position:fixed;bottom:25px;left:25px;z-index:2}
 #bodyblur{display:block;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);transition:all 1s ease;-webkit-backdrop-filter:blur(1px); backdrop-filter:blur(1px);}
 @keyframes jj{0%  {transform: scale(1.1);} 50% {transform: scale(1.2);} 100% {transform: scale(1.1);}}
 #bodyblur img{animation-name:jj;animation-duration: 5s;animation-iteration-count: infinite;}
@@ -98,7 +98,7 @@ p{font-size:18px;font-weight:700;line-height:1.4em;margin:1.5em 5px;transition:a
    <div id="contTom"><a id="By" class='button' onClick="sjawab()"></i>Liên Hệ</a></div>
    </div>
 <div class='sticky-ad' id='sticky-ad'>
- <div class='adB'><a rel="dofollow" href='https://www.samuelpasaribu.com'>©&nbsp;NgThanhVinh</a></div>
+ <div class='adB'><a rel="dofollow" href='https://www.samuelpasaribu.com'>©&nbsp;ChuThanhAn</a></div>
 <button aria-label='Close this ad' class='sticky-ad-close-button' onclick='hilangkan();'/>
 </div>
 <!-- Jangan Edit Bagian Ini --><script>
@@ -131,7 +131,7 @@ function hilangkan() {document.getElementById("sticky-ad").style = "bottom: -130
      atau bisa juga ke mailboxdrive.com -->
 
 <script type="text/javascript">
-       async function menuju(){await swals.fire('Nhấn OK để bắt đầu nhắn tin trực tiếp qua Facebook');window.location = "https://www.facebook.com/NgThanhVinh.Chjllix?mibextid=LQQJ4d" + pesanwhatsapp;}
+       async function menuju(){await swals.fire('Nhấn OK để bắt đầu nhắn tin trực tiếp qua Facebook');window.location = "https://www.facebook.com/profile.php?id=100083493123541" + pesanwhatsapp;}
        async function jawab(){
            var { value: jawaban } = await swals.fire({
                title: 'Hãy cho tôi biết tên bạn là gì', input: 'text', allowOutsideClick: false, showCancelButton: false,
@@ -147,7 +147,7 @@ function hilangkan() {document.getElementById("sticky-ad").style = "bottom: -130
        }
 
       async function apapun() {
-         await swals.fire('Lời chào từ hacker  Ng Thành Vinh', 'Chào bạn , tôi không  muốn làm điều xấu đến bạn , tôi nhận ra trang web của bạn có rất nhiều lỗ hổng , tôi nghĩ bạn cần sửa lại nó<p></p><img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://i.pinimg.com/564x/36/0b/ce/360bce26d94efc7c7e2d962c6fcdfe11.jpg"><p>Chọn OK để tiếp tục 👇</p>');
+         await swals.fire('Lời chào từ hacker Chu Thanh An', 'Chào bạn , tôi không  muốn làm điều xấu đến bạn , tôi nhận ra trang web của bạn có rất nhiều lỗ hổng , tôi nghĩ bạn cần sửa lại nó<p></p><img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://i.pinimg.com/564x/36/0b/ce/360bce26d94efc7c7e2d962c6fcdfe11.jpg"><p>Chọn OK để tiếp tục 👇</p>');
          setTimeout(showDiv,100);
       } pertama();
       
@@ -162,10 +162,10 @@ function hilangkan() {document.getElementById("sticky-ad").style = "bottom: -130
          
 
          gambar2 = "https://i.pinimg.com/564x/9f/11/2e/9f112e297e982e570ad43860051b5f8b.jpg";
-         kata1e = "Tôi là Thành Vinh và tôi muốn cảnh báo rất nhiều lỗ hổng ở web bạn";
+         kata1e = "Tôi là hacker Chu Thanh An đẹp trai";
 
          gambar3 = "https://i.pinimg.com/564x/09/d0/8b/09d08b403d7e971353cae5e85fae2c01.jpg";
-         kata1f = "Nếu bạn vẫn chưa thể tìm ra lỗ hổng hoặc bạn không thể tìm ra hãy liên hệ tới số Zalo 09********* tự đoán nhé";
+         kata1f = "Nếu bạn vẫn chưa thể tìm ra lỗ hổng hoặc bạn không thể tìm ra hãy liên hệ tới số Zalo 0972946512 nhé";
          
          katakhirb = "Chúc bạn một ngày tốt lành!";
 
