@@ -15,7 +15,7 @@ banner = """
  ░█▄▄▀ ░█▄▄▄ ░█─── ░█─░█ ░█▄▄█ ░█▄▄▄ 
 ================================================================
 \033[32mTool author  : Thành Vinh\033[0m
-\033[33mFacebook       : https://www.facebook.com/NgThanhVinhxDeatg\033[0m
+\033[33mZalo Me      : zalo.me/0927423139[0m
 \033[33mTelegram     : https://t.me/Vinyetquaidan\033[0m\n
 ================================================================
 """
@@ -59,7 +59,7 @@ def main(__bn__):
    print(__bn__)
    while True:
       try:
-         print('Please put the deface script in this same folder [white-deface] ')
+         print('Nhập File Bạn Ơi [deface] ')
          print(' ')
          a = eagle("[+]Enter your deface script's name or it's path [eg: defacescript.html] : ")
          if not os.path.isfile(a):
