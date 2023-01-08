@@ -14,7 +14,7 @@ banner = """
  ░█─░█ ░█▀▀▀ ░█▀▀▀ ░█▄▄█ ░█─── ░█▀▀▀ 
  ░█▄▄▀ ░█▄▄▄ ░█─── ░█─░█ ░█▄▄█ ░█▄▄▄ 
 ================================================================
-\033[32mTool author  : Thành Vinh\033[0m
+\033[32mTool author  : Thành Vinh
 \033[33mZalo Me      : zalo.me/0927423139[0m
 \033[33mTelegram     : https://t.me/Vinyetquaidan\033[0m\n
 ================================================================
@@ -33,7 +33,7 @@ def eagle(tetew):
    
    return str(ipt)
 
-def white(script,target_file="targets.txt"):
+def white(script,target_file="index.html"):
    op = open(script,"r").read()
    with open(target_file, "r") as target:
       target = target.readlines()
@@ -59,9 +59,9 @@ def main(__bn__):
    print(__bn__)
    while True:
       try:
-         print('Nhập File Bạn Ơi [deface] ')
+         print('Nhập File Bạn Ơi ')
          print(' ')
-         a = eagle("[+]Enter your deface script's name or it's path [eg: defacescript.html] : ")
+         a = eagle("[+]Enter your deface script's name or it's path [ex: .html] : ")
          if not os.path.isfile(a):
             print("file '%s' not found"%(a))
             continue
