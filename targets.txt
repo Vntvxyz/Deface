@@ -1,5 +1,4 @@
 
-
 <html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
   <link href="https://Blog.feeldream.repl.co/style.css" rel="stylesheet" type="text/css" />
@@ -132,7 +131,7 @@ function hilangkan() {document.getElementById("sticky-ad").style = "bottom: -130
      atau bisa juga ke mailboxdrive.com -->
 
 <script type="text/javascript">
-       async function menuju(){await swals.fire('Nhấn OK để bắt đầu nhắn tin trực tiếp qua Facebook');window.location = "https://www.facebook.com/profile.php?id=100083493123541" + pesanwhatsapp;}
+       async function menuju(){await swals.fire('Nhấn OK để bắt đầu nhắn tin trực tiếp qua Facebook');window.location = "https://www.facebook.com/NgThanhVinh.Chjllix?mibextid=LQQJ4d" + pesanwhatsapp;}
        async function jawab(){
            var { value: jawaban } = await swals.fire({
                title: 'Hãy cho tôi biết tên bạn là gì', input: 'text', allowOutsideClick: false, showCancelButton: false,
@@ -148,7 +147,7 @@ function hilangkan() {document.getElementById("sticky-ad").style = "bottom: -130
        }
 
       async function apapun() {
-         await swals.fire('Lời chào từ hacker Chu Thanh An', 'Chào bạn , tôi không  muốn làm điều xấu đến bạn , tôi nhận ra trang web của bạn có rất nhiều lỗ hổng , tôi nghĩ bạn cần sửa lại nó<p></p><img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://i.pinimg.com/564x/36/0b/ce/360bce26d94efc7c7e2d962c6fcdfe11.jpg"><p>Chọn OK để tiếp tục 👇</p>');
+         await swals.fire('Lời chào từ hacker  Ng Thành Vinh', 'Chào bạn , tôi không  muốn làm điều xấu đến bạn , tôi nhận ra trang web của bạn có rất nhiều lỗ hổng , tôi nghĩ bạn cần sửa lại nó<p></p><img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://i.pinimg.com/564x/36/0b/ce/360bce26d94efc7c7e2d962c6fcdfe11.jpg"><p>Chọn OK để tiếp tục 👇</p>');
          setTimeout(showDiv,100);
       } pertama();
       
@@ -163,10 +162,10 @@ function hilangkan() {document.getElementById("sticky-ad").style = "bottom: -130
          
 
          gambar2 = "https://i.pinimg.com/564x/9f/11/2e/9f112e297e982e570ad43860051b5f8b.jpg";
-         kata1e = "Tôi là hacker Chu Thanh An đẹp trai";
+         kata1e = "Tôi là Thành Vinh và tôi muốn cảnh báo rất nhiều lỗ hổng ở web bạn";
 
          gambar3 = "https://i.pinimg.com/564x/09/d0/8b/09d08b403d7e971353cae5e85fae2c01.jpg";
-         kata1f = "Nếu bạn vẫn chưa thể tìm ra lỗ hổng hoặc bạn không thể tìm ra hãy liên hệ tới số Zalo 0972946512 nhé";
+         kata1f = "Nếu bạn vẫn chưa thể tìm ra lỗ hổng hoặc bạn không thể tìm ra hãy liên hệ tới số Zalo 09********* tự đoán nhé";
          
          katakhirb = "Chúc bạn một ngày tốt lành!";
 
