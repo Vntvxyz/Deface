@@ -38,7 +38,7 @@ for col in x:
     sys.stdout.flush()
     time.sleep(0.0040)
 
-y = "\n\t\tĐợi xíu Bro !!! 😃\n"
+y = "\n\t\tĐợi xíu Bro !!!\n"
 for col in y:
     print(colors.CRED2 + col, end="")
     sys.stdout.flush()
